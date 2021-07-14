@@ -91,19 +91,19 @@ df2[0] = df_column0a
 df_column1a = df2[1].astype(str).astype(int)
 for i in range(len(iroot2[1][1][0])):
    
-    df_column1a = df_column1a.replace(int(i), root2[1][1][0][i].attrib['v'])
+    df_column1a = df_column1a.replace(int(i), iroot2[1][1][0][i].attrib['v'])
 df2[1] = df_column1a
 
 df_column2a = df2[2].astype(str).astype(int)
-for i in range(len(root2[1][2][0])):
+for i in range(len(iroot2[1][2][0])):
   
-    df_column2a = df_column2a.replace(int(i), root2[1][2][0][i].attrib['v'])
+    df_column2a = df_column2a.replace(int(i), iroot2[1][2][0][i].attrib['v'])
 df2[2] = df_column2a
 
 df_column3a = df2[3].astype(str).astype(int)
-for i in range(len(root2[1][3][0])):
+for i in range(len(iroot2[1][3][0])):
    
-    df_column3a = df_column3a.replace(int(i), root2[1][3][0][i].attrib['v'])
+    df_column3a = df_column3a.replace(int(i), iroot2[1][3][0][i].attrib['v'])
 df2[3] = df_column3a
 
 dict={0:'product', 1:'year', 2:'region',3:'uf',4:'jan',5:'feb',6:'mar',7:'apr',8:'may',9:'jun',10:'jul',11:'aug',12:'sep',13:'oct',14:'nov',15:'dec',16:'total'}
